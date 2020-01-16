@@ -10,4 +10,4 @@ Thecoinyard Blockchain
 Public address of the key:   0xd3C4dE640E98c1F11cd3D8710Ed16C9965A24043
 
 
-geth --datadir tcychain --syncmode 'full' --port 30311 --rpc --rpcaddr 'localhost' --rpcport 8501 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://87f45d44c26743b786d97b5bc6e09d90d05c028e51132f0ae3b163a2afaf74099bd7a0209561a7c61a3010fac28b22dbfae410c8e031f208203595d7b7846b0c@127.0.0.1:0?discport=30310' --networkid 252692 --gasprice '1' -unlock '0x2299e9A8b7D5bc1AFD29c777909ee5d8146dBa6E' --password tcychain/password.txt --mine
+geth --datadir tcychain --syncmode 'full' --port 30311 --rpc --rpcaddr '0.0.0.0' --rpccorsdomain "*" --rpcport 8501 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://87f45d44c26743b786d97b5bc6e09d90d05c028e51132f0ae3b163a2afaf74099bd7a0209561a7c61a3010fac28b22dbfae410c8e031f208203595d7b7846b0c@127.0.0.1:0?discport=30310' --networkid 252692 --gasprice '1' -unlock '0x2299e9A8b7D5bc1AFD29c777909ee5d8146dBa6E' --password tcychain/password.txt --mine
