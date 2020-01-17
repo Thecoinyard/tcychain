@@ -16,13 +16,13 @@ https://github.com/ethereum/EIPs/issues/225
 
 3. Run the puppeth tool to generate the genesis.json file
 
-4. Initialize node1 & node2
+4. Initialize tcychain/ & tcychain/node2
 
-   cd node1
-   geth --datadir ./data init ../testpoa.json
+   cd tcychain
+   geth --datadir ../tcychain init ../genesis.json
 
    cd node2
-   geth --datadir ./data init ../testpoa.json
+   geth --datadir ../tcychain/b init ../genesis.json
 
 5. Setup bootnode 
    * we will use the bootnode setup under ../privnw_one/bnode
