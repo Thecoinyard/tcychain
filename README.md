@@ -8,11 +8,11 @@ https://github.com/ethereum/EIPs/issues/225
 1. Create directories tcychain   node2
     * Chaindata will go under the subdirectory 'data'
 2. Create accounts:
-    * geth --datadir ../tcychain/db  account new
-    0x32912627010921a7A587a6c1EA550B3Ae69Ae52
+    * geth --datadir node1  account new
+    0xBfE2FaB2C815B2Cf5ef42304aDa643224BB7d67a
 
-    * geth --datadir ../tcychain/node2/db  account new
-    0x38FD1ffB08792F547546514Fb4faC4f534660eE8
+    * geth --datadir node2  account new
+    0xE7603BC91517D020ECfdAF34961FC0Ed7157b99D
 
 3. Run the puppeth tool to generate the genesis.json file
 

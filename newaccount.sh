@@ -1,1 +1,1 @@
-geth --datadir "../tcychain" account new
+geth --datadir node1 account new
