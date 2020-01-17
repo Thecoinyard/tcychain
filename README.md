@@ -19,7 +19,7 @@ https://github.com/ethereum/EIPs/issues/225
 4. Initialize tcychain/ & tcychain/node2
 
    cd tcychain
-   geth --datadir ../tcychain init ../genesis.json
+   geth --datadir ../tcychain/ init ../tcychain/tcychain.json
 
    cd node2
    geth --datadir ../tcychain/b init ../genesis.json
