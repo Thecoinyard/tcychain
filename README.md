@@ -29,14 +29,14 @@ https://github.com/ethereum/EIPs/issues/225
    * Launch Bootnode
    * Get <<enode>> information for the bootnode
 
-6. Set up the launch script for ./node1 and ./node2 with <<enode>> of bootnode
+6. Set up the launch script for ./tcychain and ./tcychain/node2 with <<enode>> of bootnode
    * Hint use the script .../privnw_one/node1/launch.boot.sh
 
 7. Launch commands for Starting the node1, node2
 
 * Node 1 Launch command - Mining is ON
 ======================================
-geth --networkid 1015 --datadir "./data" --bootnodes 'enode://83cab5439021f0dcad5a12faa2c628c212bc072d78d2ebf5dd80c3cdd0d625f262bbac924492f5e0c0ce1140fdbfc569dfa5893615e386395bca2f61f551b722@127.0.0.1:30310'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock bc758cc69671f3bb2a4f0ab9aa3ca233d0074c0a --password password.txt --mine console
+geth --networkid 252692 --datadir "./data" --bootnodes 'enode://83cab5439021f0dcad5a12faa2c628c212bc072d78d2ebf5dd80c3cdd0d625f262bbac924492f5e0c0ce1140fdbfc569dfa5893615e386395bca2f61f551b722@127.0.0.1:30310'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock bc758cc69671f3bb2a4f0ab9aa3ca233d0074c0a --password password.txt --mine console
 
 * Node 2 Launch command
 =======================
@@ -44,10 +44,10 @@ geth --networkid 1015 --datadir "./data" --bootnodes 'enode://83cab5439021f0dcad
 
 
     * Node1 - Replace <<enode>>
-    geth --networkid 1015 --datadir "./data" --bootnodes '<<enode>>'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock --password password.txt console 
+    geth --networkid 252692 --datadir "./data" --bootnodes '<<enode>>'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock --password password.txt console 
 
     * Node2 - Replace <<enode>>
-    geth --networkid 1015 --datadir "./data" --bootnodes '<<enode>>'  --port  30304 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8546 --unlock --password "password.txt" console 
+    geth --networkid 252692 --datadir "./data" --bootnodes '<<enode>>'  --port  30304 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8546 --unlock --password "password.txt" console 
 
 8. Deploy a contract on node1 and execute the contract on node2
    * Use any tool for execution
