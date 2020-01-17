@@ -24,7 +24,7 @@ https://github.com/ethereum/EIPs/issues/225
    cd node2
 geth --datadir ../tcychain/node2/ init ../tcychain/tcychain.json
 5. Setup bootnode 
-   * we will use the bootnode setup under ../privnw_one/bnode
+   bash generatebootnode.sh
    * Launch Bootnode
    * Get <<enode>> information for the bootnode
 
