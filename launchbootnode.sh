@@ -1,1 +1,1 @@
-bootnode -nodekey boot.key -verbosity 9 -addr 134.209.150.9:30310
+bootnode -nodekey boot.key -verbosity 9 -addr 127.0.0.1:30310
