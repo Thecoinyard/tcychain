@@ -1,3 +1,13 @@
+
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+# Next line only if you want the dev version
+sudo add-apt-repository -y ppa:ethereum/ethereum-dev
+sudo apt-get update
+sudo apt-get install ethereum
+
+
+
 1) account 1
 
 Public address of the key:   0x2299e9A8b7D5bc1AFD29c777909ee5d8146dBa6E
