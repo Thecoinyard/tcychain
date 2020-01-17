@@ -49,7 +49,7 @@ geth --networkid 1015 --datadir "./data" --bootnodes 'enode://83cab5439021f0dcad
     * Node2 - Replace <<enode>>
     geth --networkid 252692 --datadir "./data" --bootnodes '<<enode>>'  --port  30304 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8546 --unlock --password "password.txt" console 
 
-8. Deploy a contract on node1 and execute the contract on node2
+8. Deploy a contract on tcychain and execute the contract on tcychain/node2
    * Use any tool for execution
    * How about enabling RPC on both node1/node2 and using Remix 
      RPC ports need to be different for tcychain & tcychain/node2
