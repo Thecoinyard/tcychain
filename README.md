@@ -26,6 +26,7 @@ geth --datadir ../tcychain/node2/ init ../tcychain/tcychain.json
 5. Setup bootnode 
    bash generatebootnode.sh
    * Launch Bootnode
+   bootnode -nodekey boot.key -verbosity 9 -addr :30310
    * Get <<enode>> information for the bootnode
 
 6. Set up the launch script for ./tcychain and ./tcychain/node2 with <<enode>> of bootnode
