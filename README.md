@@ -28,7 +28,7 @@ geth --datadir ../tcychain/node2/ init ../tcychain/tcychain.json
    * Launch Bootnode
    bash launchbootnode.sh
    * Get <<enode>> information for the bootnode
-   enode://43c8317c04964cba19800e84674452c947b82bdd542051c944e48a291089e364ed764ff06b3501aedda8e61a9bae7c3a72ab343fb6639a1577f3a30e9729ee47@127.0.0.1:0?discport=30310
+   enode://c3f0f217170860e38f9a3c467eacc45217b20b9530cec0b92490c6a97f3152a072cd4d9db06a21ab6e98cb459f205a8dc6c8e43ab3c57d873d72cfe4eaccee97@127.0.0.1:0?discport=30310
 
 6. Set up the launch script for ./tcychain and ./tcychain/node2 with <<enode>> of bootnode
    * Hint use the script .../privnw_one/node1/launch.boot.sh
@@ -37,7 +37,7 @@ geth --datadir ../tcychain/node2/ init ../tcychain/tcychain.json
 
 * Node 1 Launch command - Mining is ON
 ======================================
-geth --networkid 252692 --datadir "./tcychain" --bootnodes 'enode://43c8317c04964cba19800e84674452c947b82bdd542051c944e48a291089e364ed764ff06b3501aedda8e61a9bae7c3a72ab343fb6639a1577f3a30e9729ee47@127.0.0.1:0?discport=30310'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock 032912627010921a7A587a6c1EA550B3Ae69Ae52 --password password.txt --allow-insecure-unlock --mine console
+geth --networkid 252692 --datadir "./tcychain" --bootnodes 'enode://c3f0f217170860e38f9a3c467eacc45217b20b9530cec0b92490c6a97f3152a072cd4d9db06a21ab6e98cb459f205a8dc6c8e43ab3c57d873d72cfe4eaccee97@127.0.0.1:0?discport=30310'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock 032912627010921a7A587a6c1EA550B3Ae69Ae52 --password password.txt --allow-insecure-unlock --mine console
 
 * Node 2 Launch command
 =======================
