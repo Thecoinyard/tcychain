@@ -1,0 +1,1 @@
+geth --datadir "./tcychain" init genesis.json
