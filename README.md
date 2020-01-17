@@ -1,6 +1,6 @@
 # Setup a Consortium/Private network with PoA
 # Clique documentation
-# Part of the course on Ethereum
+
 
 https://github.com/ethereum/EIPs/issues/225
 
