@@ -37,7 +37,7 @@ geth --datadir node2/ init tcychain-harmony.json
 
 * Node 1 Launch command - Mining is ON
 ======================================
-geth --networkid 2526 --datadir node1 --bootnodes 'enode://e00dcb0b9292af6be0ae750ee6a10fde27287c4314706c1b335e87b98fae22375d506f35b72c96fb17254b281a51722952ef3bcdc37b3bcc7e5e36d47c38f967@127.0.0.1:=30310'  --port  30311 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock <Your Wallet> --password password.txt --allow-insecure-unlock --mine console
+geth --networkid 25269211 --datadir db/ --bootnodes 'enode://78e0d64bd9ceb66d443a2e02a0b0ba1bd41fc29e64fda8c88bb5e05aed900b59caacedf5d8931ac844ce182d218eff8a6c58a22bc98b64be36f446b3da547968@127.0.0.1:30310' --port  30311 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --ws  --wsaddr '0.0.0.0' --wsport 8601 --wsorigins
 
 * Node 2 Launch command
 =======================
