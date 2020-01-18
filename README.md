@@ -45,10 +45,10 @@ geth --networkid 2526 --datadir node1 --bootnodes 'enode://e00dcb0b9292af6be0ae7
 
 
     * Node1 - Replace <<enode>>
-    geth --networkid 252692 --datadir "./data" --bootnodes '<<enode>>'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock --password password.txt console 
+    geth --networkid 2526 --datadir "./data" --bootnodes '<<enode>>'  --port  30303 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8545 --unlock --password password.txt console 
 
     * Node2 - Replace <<enode>>
-    geth --networkid 252692 --datadir "./data" --bootnodes '<<enode>>'  --port  30304 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8546 --unlock --password "password.txt" console 
+    geth --networkid 2526 --datadir "./data" --bootnodes '<<enode>>'  --port  30304 --ipcdisable --syncmode full --rpc --rpccorsdomain "*" --rpcport 8546 --unlock --password "password.txt" console 
 
 8. Deploy a contract on tcychain and execute the contract on tcychain/node2
    * Use any tool for execution
